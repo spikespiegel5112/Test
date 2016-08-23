@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+	<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+</head>
+<div class='main_container'>
+	<div class='input_wrapper'>
+		<ul>
+			<li>
+				<label>name</label>
+				<input class='input_name' type='text' />
+			</li>
+			<li>
+				<label>weight</label>
+				<input class='input_weight' type='text' />
+			</li>
+		</ul>
+		<a class='add' href="javascript:;">add</a>
+	</div>
+	<ul class='output_wrapper'>
+	</ul>
+</div>
+
+<body>
+</body>
+<script type="text/javascript" src='assests/js/jquery.min.js'></script>
+<script type="text/javascript">
+$(function() {
+	var trimWeight = function(options) {
+		//默认的权重条目
+		options = $.extend({
+			'location': 100,
+			'date': 75,
+			'organization': 50,
+			'keywords': 25
+		}, options);
+
+		var recommendNameArr = [],
+			recommendWeightArr = [],
+			weight = 1,
+			maxFactor = 1,
+			output = '';
+
+
+		var outputTemplate = function(name, weight) {
+			return '<li>' +
+				'<label>' + name + '：</label>' +
+				'<span>' + weight + '</span>' +
+				'</li>';
+		}
+
+		for (var item in options) {
+			recommendNameArr.push(item);
+			recommendWeightArr.push(options[item]);
+		}
+
+		// recommendArr.sort(function(a, b) {
+		//  return b - a;
+		// });
+
+		maxFactor = 100 / Math.max.apply(null, recommendWeightArr);
+		for (var i = 0; i < recommendWeightArr.length; i++) {
+			output += outputTemplate(recommendNameArr[i], recommendWeightArr[i] * maxFactor);
+		}
+
+		$('.output_wrapper').html('').append(output);
+		console.log(recommendNameArr);
+	}
+
+	var init = function() {
+		var inputObj = new Object();
+		$('.add').click(function() {
+			var nameVal = $('.input_name').val(),
+				weightVal = window.parseInt($('.input_weight').val());
+
+			if (nameVal != '' && $('.input_weight').val().replace(/[^1-9]{1}[^0-9]*/g, '') != '') {
+				inputObj[nameVal] = weightVal;
+			} else {
+				inputObj = inputObj;
+			}
+
+			if (typeof weightVal != 'number') {
+				alert('error');
+				return;
+			};
+			trimWeight(inputObj);
+		});
+	}
+
+	init();
+});
+</script>
+
+</html>
