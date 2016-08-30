@@ -22,7 +22,7 @@ public class HelloWorld {
         Employee employee_1=new Employee();
         employee_1.getName("spike");
         System.out.println("Hello World"); // 打印 Hello World
-        System.out.println(employee_1.);
+        System.out.println(employee_1.name);
 //        hw.paint();
     }
 }
