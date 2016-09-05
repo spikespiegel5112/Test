@@ -10,116 +10,11 @@
 	<script src='assets/js/jquery.min.js'></script>
 	<script src='assets/js/browser.min.js'></script>
 	<script src='assets/js/remarkable.min.js'></script>
+	<script type="text/babel" src='js/index.js'></script>
 </head>
-
 
 <body id='main_container'>
 	<div class='main_container'></div>
-
-
-<script type="text/babel">
-$(function() {
-	var InputWrapper=React.createClass({
-		render: function(){
-			return <div className='input_wrapper'>
-					<ul>
-						<li>
-							<label>name</label>
-							<input className='input_name' type='text' />
-						</li>
-						<li>
-							<label>weight</label>
-							<input className='input_weight' type='text' />
-						</li>
-					</ul>
-					<a className='add' href="javascript:;">add</a>
-				</div>
-		}
-	});
-	
-	var OutputWrapper=React.createClass({
-		render: function(){
-			return <ul className='output_wrapper'></ul>
-		}
-	});
-
-	var WeightTrimWrapper=React.createClass({
-		render: function(){
-			return <div className='weighttrim_wrapper'>
-						<InputWrapper/>
-						<OutputWrapper/>
-					</div>
-		},
-		componentDidMount: function(){
-			var trimWeight = function(options) {
-				//默认的权重条目
-				options = $.extend({
-					'location': 100,
-					'date': 75,
-					'organization': 50,
-					'keywords': 25
-				}, options);
-
-				var recommendNameArr = [],
-					recommendWeightArr = [],
-					weight = 1,
-					maxFactor = 1,
-					output = '';
-
-
-				var outputTemplate = function(name, weight) {
-					return '<li>' +
-						'<label>' + name + '：</label>' +
-						'<span>' + weight + '</span>' +
-						'</li>';
-				}
-
-				for (var item in options) {
-					recommendNameArr.push(item);
-					recommendWeightArr.push(options[item]);
-				}
-
-				// recommendArr.sort(function(a, b) {
-				//  return b - a;
-				// });
-
-				maxFactor = 100 / Math.max.apply(null, recommendWeightArr);
-				for (var i = 0; i < recommendWeightArr.length; i++) {
-					output += outputTemplate(recommendNameArr[i], recommendWeightArr[i] * maxFactor);
-				}
-
-				$('.output_wrapper').html('').append(output);
-				console.log(recommendNameArr);
-			}
-
-			var init = function() {
-				var inputObj = new Object();
-				$('.add').click(function() {
-
-					var nameVal = $('.input_name').val(),
-						weightVal = window.parseInt($('.input_weight').val());
-
-					if (nameVal != '' && $('.input_weight').val().replace(/[^1-9]{1}[^0-9]*/g, '') != '') {
-						inputObj[nameVal] = weightVal;
-					} else {
-						inputObj = inputObj;
-					}
-
-					if (typeof weightVal != 'number') {
-						alert('error');
-						return;
-					};
-					trimWeight(inputObj);
-				});
-			}
-
-			init();
-		}
-	})
-	var jsxContainer=document.getElementById('main_container');
-	
-	ReactDOM.render(<WeightTrimWrapper/>, jsxContainer);
-});
-</script>
 </body>
+
 </html>
