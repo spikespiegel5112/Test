@@ -1,0 +1,35 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html>
+
+<head>
+		<meta charset="utf-8" />
+		<title>React Tutorial</title>
+		<script src="assets/js/react/react.js"></script>
+		<script src="assets/js/react/react-dom.js"></script>
+		<script src="assets/js/browser.min.js"></script>
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/remarkable.min.js"></script>
+</head>
+
+<body>
+		<div id="content"></div>
+		<!--<script type="text/babel" src="scripts/example.js"></script>-->
+		<script type="text/babel">
+				// To get started with this tutorial running your own code, simply remove // the script tag loading scripts/example.js and start writing code here. alert('aaa') 
+
+    var names = ['Alice', 'Emily', 'Kate'];
+    var jsx=<div>
+      {
+        names.map(function (name) {
+          return <div>Hello, {name}!</div>
+        })
+      }
+      </div>;
+    var container=document.getElementsByClassName('content');
+    ReactDOM.render(jsx,container);
+
+		</script>
+</body>
+
+</html>
