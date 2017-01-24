@@ -2,6 +2,7 @@ package com.jfinalTest.config;
 
 import com.jfinal.config.*;
 import com.jfinalTest.controller.HelloController;
+import com.jfinalTest.controller.RouteController;
 
 /**
  * Created by pc on 2017/1/20.
@@ -14,7 +15,9 @@ public class jfinalTestConfig extends JFinalConfig {
 
     @Override
     public void configRoute(Routes me) {
-        me.add("hello", HelloController.class, "/");
+        me.add("/", HelloController.class, "hello");
+//        me.add("/", RouteController.class, "");
+
     }
 
     @Override
