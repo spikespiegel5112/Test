@@ -7,6 +7,14 @@ import com.jfinal.core.Controller;
  */
 public class RouteController extends Controller {
     public void index(){
+        renderText("this is index");
+    }
+
+    public void hello(){
+        renderText("hello world");
+    }
+
+    public void lololo(){
         renderText("lololo");
     }
 }
