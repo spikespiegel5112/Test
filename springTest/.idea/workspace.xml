@@ -4,10 +4,74 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="158907b7-ff26-450e-8120-491bdce10b1f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/pages/index.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/pages/index.tsx" beforeDir="false" />
+    <list default="true" id="efdfb5f1-9ad0-4e2a-9dd6-c6c61f190b9e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/highlight_spring4.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch1/aop/Action.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch1/aop/AopConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch1/aop/DemoAnnotationService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch1/aop/DemoMethodService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch1/aop/LogAspect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch1/aop/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch1/di/DiConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch1/di/FunctionService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch1/di/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch1/di/UseFunctionService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch1/javaconfig/FunctionService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch1/javaconfig/JavaConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch1/javaconfig/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch1/javaconfig/UseFunctionService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch2/el/DemoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch2/el/ElConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch2/el/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch2/el/test.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch2/el/test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch2/event/DemoEvent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch2/event/DemoListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch2/event/DemoPublisher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch2/event/EventConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch2/event/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch2/prepost/BeanWayService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch2/prepost/JSR250WayService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch2/prepost/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch2/prepost/PrePostConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch2/profile/DemoBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch2/profile/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch2/profile/ProfileConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch2/scope/DemoPrototypeService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch2/scope/DemoSingletonService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch2/scope/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch2/scope/ScopeConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch3/annotation/DemoConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch3/annotation/DemoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch3/annotation/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch3/annotation/WiselyConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch3/aware/AwareConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch3/aware/AwareService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch3/aware/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch3/aware/test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch3/conditional/ConditionConifg.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch3/conditional/LinuxCondition.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch3/conditional/LinuxListService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch3/conditional/ListService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch3/conditional/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch3/conditional/WindowsCondition.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch3/conditional/WindowsListService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch3/fortest/TestBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch3/fortest/TestConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch3/taskexecutor/AsyncTaskService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch3/taskexecutor/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch3/taskexecutor/TaskExecutorConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch3/taskscheduler/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch3/taskscheduler/ScheduledTaskService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch3/taskscheduler/TaskSchedulerConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/wisely/highlight_spring4/ch3/fortest/DemoBeanIntegrationTests.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,7 +81,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="1oPBx0O29jIkhafTc5zRXEr4P0w" />
+  <component name="ProjectId" id="1qrUukrNrI2k2xcFSv2n1HtztQh" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -26,19 +90,15 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Global Libraries" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="158907b7-ff26-450e-8120-491bdce10b1f" name="Default Changelist" comment="" />
-      <created>1613178588648</created>
+      <changelist id="efdfb5f1-9ad0-4e2a-9dd6-c6c61f190b9e" name="Default Changelist" comment="" />
+      <created>1617837426918</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1613178588648</updated>
+      <updated>1617837426918</updated>
     </task>
     <servers />
   </component>
@@ -52,6 +112,5 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

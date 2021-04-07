@@ -6,11 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="highlight_spring4" />
+        <module name="springTest" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="highlight_spring4" target="1.5" />
       <module name="springTest" target="1.5" />
     </bytecodeTargetLevel>
   </component>
